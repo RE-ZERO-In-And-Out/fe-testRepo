@@ -1,22 +1,20 @@
-import styles from './App.module.css';
-import React, { useEffect, useState } from 'react';
-import Header from './Header';
-import ListContainer from './components/ListContainer';
+import styles from "./App.module.css"
+import React, { useEffect, useState } from "react"
+import Header from "./Header"
+import ListContainer from "./components/ListContainer"
 
 function App() {
   return (
     <>
-      <div className={styles.nav}>
-        Nav
-      </div>
+      <div className={styles.nav}>Nav</div>
       <Header />
       <ListContainer />
       <footer className={styles.footer}>
         Footersss
       </footer>
+
     </>
-  );
+  )
 }
 
-
-export default App;
+export default App
