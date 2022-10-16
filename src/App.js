@@ -9,7 +9,10 @@ function App() {
       <div className={styles.nav}>Nav</div>
       <Header />
       <ListContainer />
-      <footer className={styles.footer}>Footer</footer>
+      <footer className={styles.footer}>
+        Footersss
+      </footer>
+
     </>
   )
 }
