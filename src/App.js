@@ -12,7 +12,7 @@ function App() {
       <Header />
       <ListContainer />
       <footer className={styles.footer}>
-        Footer
+        Footersss
       </footer>
     </>
   );
