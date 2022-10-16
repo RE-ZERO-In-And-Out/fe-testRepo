@@ -6,7 +6,7 @@ import ListContainer from "./components/ListContainer"
 function App() {
   return (
     <>
-      안녕
+      안녕안녕
       <div className={styles.nav}>Nav</div>
       <Header />
       <ListContainer />
