@@ -1,12 +1,12 @@
-import styles from "./App.module.css"
-import React, { useEffect, useState } from "react"
-import Header from "./Header"
-import ListContainer from "./components/ListContainer"
+import styles from "./App.module.css";
+import React, { useEffect, useState } from "react";
+import Header from "./Header";
+import ListContainer from "./components/ListContainer";
 
 function App() {
   return (
     <>
-      안녕안녕
+      안녕안녕 - 좋습니다~
       <div className={styles.nav}>Nav</div>
       <Header />
       <ListContainer />
@@ -15,7 +15,7 @@ function App() {
       </footer>
 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
