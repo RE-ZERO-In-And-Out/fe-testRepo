@@ -1,0 +1,18 @@
+.tab {
+  display: flex;
+  border: none;
+  align-items: center;
+  background: transparent;
+  justify-content: center;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+
+.selected {
+  border-bottom: 1px solid #fa4549;
+  font-weight: 800;
+}
+
+.tabList {
+  display: flex;
+}

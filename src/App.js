@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import React, { useEffect, useState } from 'react';
+import Header from './Header';
+import ListContainer from './components/ListContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={styles.nav}>
+        Nav
+      </div>
+      <Header />
+      <ListContainer />
+      <footer className={styles.footer}>
+        Footer
+      </footer>
+    </>
   );
 }
+
 
 export default App;
